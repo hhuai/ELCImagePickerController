@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
     		   }
     s.platform = :ios, '5.1.1'
     s.resources = 'Classes/**/*.{xib,png}'
-    s.source_files = 'Classes/ELCImagePicker/*.{h,m}'
+    s.source_files = 'Classes/ELCImagePicker/*.{h,m}', 'Classes/EYLargePhoto/*.{h,m}'
     s.framework = 'Foundation', 'UIKit', 'AssetsLibrary', 'CoreLocation'
     s.requires_arc = true
 end
